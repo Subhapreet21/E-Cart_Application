@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import Laptops from "./Laptops.jsx";
 import Mobiles from "./Mobiles.jsx";
+import Watches from "./Watches.jsx";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById("root")).render(
   <div>
     <Laptops />
     <Mobiles />
+    <Watches />
   </div>
 );
