@@ -19,9 +19,9 @@ const Laptops = () => {
           return (
             <div className="child1" key={index}>
               <img src={element.pimage} alt={element.name} />
-              <h3>
+              <h2>
                 <i className="fa fa-rupee" /> {element.pcost}
-              </h3>
+              </h2>
               <p>{element.pqty}</p>
             </div>
           );
